@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Header from '../../components/SmallHeader'
 import Testimonials from './Testimonial'
 import Hero from './Hero'

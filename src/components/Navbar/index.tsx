@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Logo from "../../assets/icons/Logo"
 import { navLinks } from "../../constants";
 import { Link } from "react-router-dom";

@@ -1,4 +1,4 @@
-import React from 'react'
+
 import CheckIcon from '../../assets/icons/checkIcon.svg'
 import Icon1 from '../../assets/icons/icon1.svg'
 import Icon2 from '../../assets/icons/icon2.svg'

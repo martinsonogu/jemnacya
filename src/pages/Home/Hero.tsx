@@ -1,4 +1,4 @@
-import React from 'react'
+
 import BGImage from '../../assets/imgs/Bitmap.svg'
 import Title from '../../components/Title'
 import Button from '../../components/Button'

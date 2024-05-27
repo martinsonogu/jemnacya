@@ -1,4 +1,4 @@
-import React from 'react'
+
 import AboutBg from '../../../assets/imgs/aboutBg.png'
 import Header from '../../../components/SmallHeader'
 import Title from '../../../components/Title'

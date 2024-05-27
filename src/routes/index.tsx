@@ -1,4 +1,4 @@
-import React, { ReactNode } from "react";
+import { ReactNode } from "react";
 import { REGULAR_PATHS } from "./paths";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "../components/Navbar";
@@ -7,7 +7,7 @@ import Home from "../pages/Home";
 import About from "../pages/AboutUs";
 import Contact from "../pages/ContactUs";
 import Services from "../pages/Services";
-import Work from "../pages/Work";
+// import Work from "../pages/Work";
 import It from "../pages/Services/It";
 import Energy from "../pages/Services/Energy";
 import RealEstate from "../pages/Services/RealEstate";
@@ -43,7 +43,7 @@ export const AppRouter = () => {
             <Route path={CONTACT} element={<Contact />} />
             <Route path={ABOUT} element={<About />} />
             <Route path={SERVICES} element={<Services />} />
-            <Route path={WORK} element={<Work />} />
+            {/* <Route path={WORK} element={<Work />} /> */}
             <Route path={IT_CONSULTATION} element={<It />} />
             <Route path={ENERGY} element={<Energy />} />
             <Route path={REAL_ESTATE} element={<RealEstate/>} />

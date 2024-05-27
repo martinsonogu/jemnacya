@@ -1,6 +1,6 @@
 import { REGULAR_PATHS } from "../routes/paths";
 
-const { HOME, ABOUT, SERVICES, WORK } = REGULAR_PATHS;
+const { HOME, ABOUT, SERVICES} = REGULAR_PATHS;
 export const navLinks = [
     {
       id: 0,
@@ -18,9 +18,9 @@ export const navLinks = [
       name: "Services",
       url: SERVICES,
     },
-    {
-        id: 3,
-        name: "Work",
-        url: WORK,
-      }
+    // {
+    //     id: 3,
+    //     name: "Work",
+    //     url: WORK,
+    //   }
 ]

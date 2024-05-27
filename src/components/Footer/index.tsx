@@ -1,4 +1,3 @@
-import React from 'react'
 import FooterLogo from "../../assets/icons/FooterLogo"
 import Envelope from '../../assets/icons/Envelope';
 import Phone from '../../assets/icons/Phone';

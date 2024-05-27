@@ -1,4 +1,3 @@
-import React from 'react'
 import MarkIcon from '../assets/icons/bareMark.svg'
 
 type Props = {
