@@ -1,4 +1,4 @@
-import * as React from "react";
+
 const Envelope = (props:any) => (
   <svg
     width={26}

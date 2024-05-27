@@ -1,4 +1,3 @@
-import * as React from "react";
 const Phone = (props:any) => (
   <svg
     width={22}

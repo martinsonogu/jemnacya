@@ -1,4 +1,4 @@
-import * as React from "react";
+
 const FooterLogo = (props:any) => (
   <svg
     width={123}

@@ -20,7 +20,7 @@ type LayoutProps = {
   
 export const AppRouter = () => {
   // Define paths
-  const { HOME, CONTACT, ABOUT, SERVICES, WORK, IT_CONSULTATION, ENERGY, REAL_ESTATE } = REGULAR_PATHS;
+  const { HOME, CONTACT, ABOUT, SERVICES, IT_CONSULTATION, ENERGY, REAL_ESTATE } = REGULAR_PATHS;
 
   // Layout for front-end
   const Layout = ({ children }: LayoutProps) => {

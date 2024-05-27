@@ -1,7 +1,7 @@
 import React from 'react'
 
 interface TitleProps {
-  children: string;
+  children: React.ReactNode;
   className?: string;
 }
 const Title: React.FC<TitleProps> =({ children, className }) => {
