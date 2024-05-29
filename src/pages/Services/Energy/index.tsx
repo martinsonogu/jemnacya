@@ -2,14 +2,13 @@
 import AboutBg from '../../../assets/imgs/aboutBg.png'
 import Header from '../../../components/SmallHeader'
 import Title from '../../../components/Title'
-import EnergyBg from '../../../assets/imgs/EnergyBg.svg'
 import EnergyImg1 from '../../../assets/imgs/EnergyImg(1).svg'
 import EnergyImg2 from '../../../assets/imgs/EnergyImg(2).svg'
 import Marker from '../../../components/Marker'
 import RealEstMobile from '../../../assets/imgs/RealEstMobile.svg'
 import EnergyMobile from '../../../assets/imgs/EnergyMobile.svg'
 import OilImg from '../../../assets/imgs/OilImg.svg'
-
+import BulbImg from '../../../assets/imgs/bulb.svg'
 
 const Energy = () => {
   const innerDivStyle = {
@@ -30,7 +29,7 @@ const Energy = () => {
        </div>
       <div className='lg:mt-[113px] mt-[50px] lg:w-[900px] w-full mx-auto'>
         <div className=' h-[599px] hidden lg:block'>
-          <img src={EnergyBg} alt="" className='rounded-lg' />
+          <img src={BulbImg} alt="" className='rounded-lg' />
         </div>
         <img src={EnergyMobile} alt="image" className='lg:hidden'/>
         <div className='mt-[66px]'>

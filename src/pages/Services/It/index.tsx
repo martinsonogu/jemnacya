@@ -2,14 +2,13 @@
 import AboutBg from '../../../assets/imgs/aboutBg.png'
 import Header from '../../../components/SmallHeader'
 import Title from '../../../components/Title'
-import ITBigImg from '../../../assets/imgs/ItBigImg.png'
 import Marker from '../../../components/Marker'
-import ItSmImg1 from '../../../assets/imgs/ItSmImg(1).svg'
-import ItSmImg2 from '../../../assets/imgs/ItSmImg(2).svg'
 import ItMobileBanner from '../../../assets/imgs/ItMobile.svg'
-import SmallItImg from '../../../assets/imgs/SmallItImg.svg'
-import ItSmallImg1 from '../../../assets/imgs/ItSmallImg1.svg'
-//import ItSmallImg2 from '../../../assets/imgs/ItSmallImg2.svg'
+import NewItImg from '../../../assets/imgs/NewItImg.svg' 
+import NewItImgSmall from '../../../assets/imgs/NewItImg-1.svg'
+import NewItImgSmall2 from '../../../assets/imgs/NewItImg-2.svg'
+import NewItImgMobile from '../../../assets/imgs/NewItImgMobi.svg'
+import ItNewMobile from '../../../assets/imgs/ItNewMobile.svg'
 const It = () => {
   const innerDivStyle = {
     backgroundImage: `url(${AboutBg})`,
@@ -29,9 +28,9 @@ const It = () => {
       </div>
       <div className='lg:mt-[113px] mt-[50px] lg:w-[900px] w-full mx-auto'>
         <div className=' h-[599px] hidden lg:block '>
-          <img src={ITBigImg} alt="" className='rounded-lg' />
+          <img src={NewItImg} alt="" className='rounded-lg' />
         </div>
-        <img src={SmallItImg} alt="image" className='lg:hidden'/>
+        <img src={ItNewMobile} alt="image" className='lg:hidden'/>
         <div className='mt-[66px]'>
           <Title className='font-montserrat font-extrabold lg:text-[32px] text-lg text-[#2F2F2F]'>
           Empowering Your Business with IT Solutions
@@ -67,9 +66,9 @@ const It = () => {
             deliver tangible results.
           </p>
           <div className='lg:mt-[60px] mt-[30px] flex items-center justify-center w-full lg:justify-between'>
-            <img src={ItSmImg1} alt="" className='rounded-lg hidden lg:block' />
-            <img src={ItSmallImg1} alt="" className='rounded-lg lg:hidden' />
-            <img src={ItSmImg2} alt="" className='rounded-lg  hidden lg:block' />
+            <img src={NewItImgSmall} alt="" className='rounded-lg hidden lg:block' />
+            <img src={NewItImgMobile} alt="" className='rounded-lg lg:hidden' />
+            <img src={NewItImgSmall2} alt="" className='rounded-lg  hidden lg:block' />
             {/* <img src={ItSmallImg2} alt="" className='rounded-lg lg:hidden' /> */}
           </div>
 

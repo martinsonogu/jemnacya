@@ -2,7 +2,6 @@
 import AboutBg from '../../assets/imgs/aboutBg.png'
 import Header from '../../components/SmallHeader'
 import Title from '../../components/Title'
-import ItImg from '../../assets/imgs/It.png'
 import EnergyImg from '../../assets/imgs/Energy.png'
 import EstateImg from '../../assets/imgs/Estate.png'
 import Button from '../../components/Button'
@@ -11,10 +10,10 @@ import ColouredBg from '../../assets/icons/coloured.svg'
 import { Link } from 'react-router-dom'
 import { REGULAR_PATHS } from "../../routes/paths";
 import ServicesSmallImg from '../../assets/imgs/ServicesSmallImg.svg'
-import SmallItImg from '../../assets/imgs/SmallItImg.svg'
-// import SmallRealEsImg from '../../assets/imgs/SmallRealEsImg.svg'
-// import SmallEnegyImg from '../..//assets/imgs/SmallEnergyImg.svg'
-
+import ItNewMobile from '../../assets/imgs/ItNewMobile.svg'
+import NewItServiceImg from '../../assets/imgs/NewItServiceImg.svg'
+import EneMobile from '../../assets/imgs/EneMobile.svg'
+import EstateMobile from '../../assets/imgs/EstateMobile.svg'
 const Services = () => {
   const { IT_CONSULTATION, REAL_ESTATE, ENERGY, CONTACT } = REGULAR_PATHS;
   const innerDivStyle = {
@@ -56,7 +55,7 @@ const Services = () => {
       <div className='hidden lg:block'>
         <div className='w-full mt-[70px] h-[403px] flex items-start justify-center'>
           <div className='w-1/2 rounded-lg h-full'>
-            <img src={ItImg} alt="" className='rounded-lg' />
+            <img src={NewItServiceImg} alt="" className='rounded-lg' />
           </div>
           <div className='w-1/2 ml-16'>
             <h2 className='text-left font-montserrat font-semibold text-[22px] mb-6'>1. IT Consultancy</h2>
@@ -75,7 +74,7 @@ const Services = () => {
         {/* for Mobile View */}
       <div className='lg:hidden'>
         <div className='flex flex-col items-center justify-center w-full mt-[70px]'>
-          <img src={SmallItImg} alt="" className='rounded-lg z-10' />
+          <img src={ItNewMobile} alt="" className='rounded-lg z-10' />
           <div className='bg-[#F5F5F5] mt-[-15px] pb-16 rounded-lg'>
             <h3 className='mt-[50px] text-lg font-montserrat font-bold'>IT Consultancy</h3>
             <p className='px-3 text-justify mt-[20px] font-montserrat font-normal text-sm text-[#424242]'>AFQ Tech data scientists and analysts are skilled at mining, modeling, and
@@ -115,7 +114,7 @@ const Services = () => {
       {/* for Mobile View */}
       <div className='lg:hidden'>
         <div className='flex flex-col items-center justify-center w-full mt-[80px]'>
-          <img src={SmallItImg} alt="" className='rounded-lg z-10' />
+          <img src={EstateMobile} alt="" className='rounded-lg z-10' />
           <div className='bg-[#F5F5F5] mt-[-15px] pb-16 rounded-lg'>
             <h3 className='mt-[50px] text-lg font-montserrat font-bold'>Real Estate</h3>
             <p className='px-3 text-justify mt-[20px] font-montserrat font-normal text-sm text-[#424242]'>AFQ Tech data scientists and analysts are skilled at mining, modeling, and
@@ -155,7 +154,7 @@ const Services = () => {
       {/* for Mobile View */}
       <div className='lg:hidden'>
         <div className='flex flex-col items-center justify-center w-full my-[80px]'>
-          <img src={SmallItImg} alt="" className='rounded-lg z-10' />
+          <img src={EneMobile} alt="" className='rounded-lg z-10' />
           <div className='bg-[#F5F5F5] mt-[-15px] pb-16 rounded-lg'>
             <h3 className='mt-[50px] text-lg font-montserrat font-bold'>Energy Services</h3>
             <p className='px-3 text-justify mt-[20px] font-montserrat font-normal text-sm text-[#424242]'>AFQ Tech data scientists and analysts are skilled at mining, modeling, and
