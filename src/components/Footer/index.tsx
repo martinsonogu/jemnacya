@@ -88,7 +88,7 @@ const Footer = () => {
               <h3 className='font-bold text-primary_color_white text-xl mb-5'>Contact Info</h3>
               <div className='mb-4 flex items-center'>
                 <Envelope/>
-                <p className='text-lg ml-3 text-primary_color_white '>Jemnacya@gmail.co.uk</p>
+                <p className='text-lg ml-3 text-primary_color_white '>info@jemnacya.com</p>
               </div>
               <div className=' flex item-center'>
                 <Phone/>
